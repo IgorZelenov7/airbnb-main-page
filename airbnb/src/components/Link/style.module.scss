@@ -1,0 +1,18 @@
+.link {
+  padding: 0 20px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #222;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+
+  &Light {
+    color: #717171;
+    font-weight: 400;
+  }
+}

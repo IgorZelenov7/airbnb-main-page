@@ -1,0 +1,30 @@
+/*# sourceMappingURL=style.css.map */ainer {
+  max-width: 1310px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}/*# sourceMappingURL=style.css.map */tn-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: var(--accent);
+  border-radius: 50%;
+}
+
+.searchbar__btns-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar__btn:not(:last-child) {
+  border-right: 1px solid #DDD;
+}/*# sourceMappingURL=style.css.map */
