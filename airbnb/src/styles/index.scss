@@ -1,2 +1,10 @@
 @import url(./reset.scss); 
 @import url(./vars.scss); 
+
+
+.main__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px 24px;
+
+}
